@@ -1,0 +1,86 @@
+.arimg{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+/* body{
+    cursor: none;
+} */
+
+
+/* .one{
+ width: 150px;
+height: 150px;
+background-color: 09c;
+} */
+.sptial{
+    border-radius: 50%;
+    margin: auto;
+}
+
+.contain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcaption{
+    position: absolute;
+    background-color: aliceblue;
+    bottom: 20px;
+    width: 80%;
+    
+}
+/* body{
+    cursor: none;
+}
+
+#myimg{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+
+} */
+#lightbox-container
+{
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.4);
+display: none;
+justify-content: center;
+align-items: center;
+}
+#lightboxitem
+{
+width: 50%;
+height: 500px;
+background-image: url(../images/portfolio-3.jpg);
+background-size: 100% 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+#lightboxitem i 
+{
+font-size: 20px;
+cursor: pointer;
+margin: 5px;
+}
+#close
+{
+position: absolute;
+top: 25px;
+right: 20px;
+}
+.khtab{
+    width: 200px;
+    display: none;
+    position:absolute;
+    top: 50% ;
+    left: 50%;
+    border:#09c 2px solid ;
+}
